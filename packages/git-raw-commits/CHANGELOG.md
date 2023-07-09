@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/conventional-changelog/conventional-changelog/compare/git-raw-commits-v3.0.0...git-raw-commits-v3.0.1) (2023-07-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency split2 to v4 ([#1032](https://github.com/conventional-changelog/conventional-changelog/issues/1032)) ([d16ccc5](https://github.com/conventional-changelog/conventional-changelog/commit/d16ccc5df75f2c728417d20324b6eb6e746633ab))
+
 ## [3.0.0](https://github.com/conventional-changelog/conventional-changelog/compare/git-raw-commits-v2.0.11...git-raw-commits-v3.0.0) (2023-06-06)
 
 
