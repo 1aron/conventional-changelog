@@ -36,7 +36,7 @@
     "add-stream": "^1.0.0",
     "conventional-changelog": "^4.0.0",
     "meow": "^8.1.2",
-    "tempfile": "^3.0.0"
+    "tempfile": "^5.0.0"
   },
   "scripts": {
     "test-windows": "echo 'make work on windows'"
