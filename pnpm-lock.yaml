@@ -227,11 +227,11 @@ importers:
 
   packages/git-raw-commits:
     specifiers:
-      dargs: ^7.0.0
+      dargs: ^8.0.0
       meow: ^8.1.2
       split2: ^4.0.0
     dependencies:
-      dargs: 7.0.0
+      dargs: 8.1.0
       meow: 8.1.2
       split2: 4.2.0
 
@@ -850,9 +850,9 @@ packages:
       array-find-index: 1.0.2
     dev: true
 
-  /dargs/7.0.0:
-    resolution: {integrity: sha512-2iy1EkLdlBzQGvbweYRFxmFath8+K7+AKB0TlhHWkNuH+TmovaMH/Wp7V7R4u7f4SnX3OgLsU9t1NI9ioDnUpg==}
-    engines: {node: '>=8'}
+  /dargs/8.1.0:
+    resolution: {integrity: sha512-wAV9QHOsNbwnWdNW2FYvE1P56wtgSbM+3SZcdGiWQILwVjACCXDCI3Ai8QlCjMDB8YK5zySiXZYBiwGmNY3lnw==}
+    engines: {node: '>=12'}
     dev: false
 
   /dateformat/3.0.3:
