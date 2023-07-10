@@ -112,7 +112,7 @@ importers:
       conventional-changelog-angular: ^6.0.0
       conventional-changelog-writer: ^6.0.0
       conventional-commits-parser: ^4.0.0
-      dateformat: ^3.0.3
+      dateformat: ^5.0.0
       get-pkg-repo: ^5.0.0
       git-raw-commits: ^3.0.0
       git-remote-origin-url: ^2.0.0
@@ -124,7 +124,7 @@ importers:
       add-stream: 1.0.0
       conventional-changelog-writer: link:../conventional-changelog-writer
       conventional-commits-parser: link:../conventional-commits-parser
-      dateformat: 3.0.3
+      dateformat: 5.0.3
       get-pkg-repo: 5.0.0
       git-raw-commits: link:../git-raw-commits
       git-remote-origin-url: 2.0.0
@@ -166,7 +166,7 @@ importers:
   packages/conventional-changelog-writer:
     specifiers:
       conventional-commits-filter: ^3.0.0
-      dateformat: ^3.0.3
+      dateformat: ^5.0.0
       dedent: ^0.7.0
       forceable-tty: ^0.1.0
       handlebars: ^4.7.7
@@ -176,7 +176,7 @@ importers:
       split: ^1.0.1
     dependencies:
       conventional-commits-filter: link:../conventional-commits-filter
-      dateformat: 3.0.3
+      dateformat: 5.0.3
       handlebars: 4.7.7
       json-stringify-safe: 5.0.1
       meow: 8.1.2
@@ -855,8 +855,9 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /dateformat/3.0.3:
-    resolution: {integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==}
+  /dateformat/5.0.3:
+    resolution: {integrity: sha512-Kvr6HmPXUMerlLcLF+Pwq3K7apHpYmGDVqrxcDasBg86UcKeTSNWbEzU8bwdXnxnR44FtMhJAxI4Bov6Y/KUfA==}
+    engines: {node: '>=12.20'}
     dev: false
 
   /debug/3.2.7:
