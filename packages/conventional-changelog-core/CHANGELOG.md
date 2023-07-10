@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.0](https://github.com/conventional-changelog/conventional-changelog/compare/conventional-changelog-core-v5.0.2...conventional-changelog-core-v6.0.0) (2023-07-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Now all presets are exports preset config factory function. conventional-changelog-preset-loader now exports new loadPreset and createPresetLoader functions. If you are using presets indirectly, using preset name, no any changes in configuration needed, just upgrade packages to latest versions.
+
+### Features
+
+* unified presets interface ([#1045](https://github.com/conventional-changelog/conventional-changelog/issues/1045)) ([8d0ffbe](https://github.com/conventional-changelog/conventional-changelog/commit/8d0ffbe6c59b861b560cea0e3594c7b32e978cc3))
+
+
+### Bug Fixes
+
+* **deps:** update dependency get-pkg-repo to v5 ([#1030](https://github.com/conventional-changelog/conventional-changelog/issues/1030)) ([04b3183](https://github.com/conventional-changelog/conventional-changelog/commit/04b31833dfde97d16c6080b2501032ed15317ac6))
+* **deps:** update dependency normalize-package-data to v5 ([#1037](https://github.com/conventional-changelog/conventional-changelog/issues/1037)) ([1230bba](https://github.com/conventional-changelog/conventional-changelog/commit/1230bbaa6f86d528b90ec53fcebafc75dbaef523))
+
 ## [5.0.2](https://github.com/conventional-changelog/conventional-changelog/compare/conventional-changelog-core-v5.0.1...conventional-changelog-core-v5.0.2) (2023-06-28)
 
 
